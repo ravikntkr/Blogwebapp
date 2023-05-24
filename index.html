@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fake Blogs</title>
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <!-- Icon CDN -->
+    <script
+      src="https://kit.fontawesome.com/cc22289122.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="btn-area">
+          <a href="#aside"><button class="add-blog">Add post</button></a>
+          <div class="social-area">
+            <div class="icon-box">
+              <i class="fa-brands fa-facebook-f social-icons"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-instagram social-icons"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa-brands fa-linkedin-in social-icons"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main area  -->
+    <main>
+      <div class="main-container">
+        <div class="content-area">
+          <div id="blogList" class="blog-container"></div>
+        </div>
+        <!-- Sidebar -->
+        <aside id="aside">
+          <form id="addpost">
+            <h1 class="addpost-heading">Add Post</h1>
+            <input
+              type="text"
+              id="posttitle"
+              placeholder="Enter title"
+              required
+            />
+            <input
+              type="text"
+              id="postcontent"
+              placeholder="Enter content"
+              required
+            />
+            <input type="submit" value="Submit Post" />
+            <!-- image -->
+            <img src="./pencil-icon.png" alt="" class="pencil-icon" />
+            <p class="author">Made by Ravikant K.</p>
+          </form>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

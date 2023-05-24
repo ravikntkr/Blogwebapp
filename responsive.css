@@ -1,0 +1,151 @@
+/* Medium screen styling */
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /*  */
+
+  .container {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+
+  .add-blog {
+    display: block;
+    border: none;
+    background-color: #f72585;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 25px;
+    color: #fbfbfb;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .add-blog:hover {
+    background: rgb(247, 37, 133);
+    background: linear-gradient(
+      0deg,
+      rgba(247, 37, 133, 0.9585084033613446) 0%,
+      rgba(247, 37, 133, 0.3562675070028011) 100%
+    );
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  .social-area {
+    display: none;
+  }
+
+  /* Main section styling */
+
+  .main-container {
+    max-width: 100%;
+    padding: 0 15px;
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 70px;
+  }
+
+  .content-area {
+    flex-basis: 100%;
+    padding: 50px 0;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  form {
+    height: 600px;
+    position: block;
+    /* right: 0; */
+    padding: 20px 60px 40px 60px;
+  }
+
+  #posttitle,
+  #postcontent {
+    height: 50px;
+  }
+
+  input[type="submit"] {
+    height: 50px;
+  }
+}
+
+/* Small screen styling */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+
+  .add-blog {
+    display: block;
+    border: none;
+    background-color: #f72585;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 25px;
+    color: #fbfbfb;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  .add-blog:hover {
+    background: rgb(247, 37, 133);
+    background: linear-gradient(
+      0deg,
+      rgba(247, 37, 133, 0.9585084033613446) 0%,
+      rgba(247, 37, 133, 0.3562675070028011) 100%
+    );
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  .social-area {
+    display: none;
+  }
+
+  /* Main section styling */
+
+  .main-container {
+    max-width: 100%;
+    padding: 0 15px;
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 70px;
+  }
+
+  .content-area {
+    flex-basis: 100%;
+    padding: 40px 0;
+  }
+
+  .blog-card {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  form {
+    height: 600px;
+    position: block;
+    /* right: 0; */
+    padding: 30px;
+  }
+
+  #posttitle,
+  #postcontent {
+    height: 50px;
+  }
+
+  input[type="submit"] {
+    height: 50px;
+  }
+}
